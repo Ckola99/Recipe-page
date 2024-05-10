@@ -71,7 +71,7 @@ h6 {
 		format("truetype");
 }
 
-.recipe-container {
+.container {
 	background-color: var(--recipe-container-color);
 	margin: 100px auto;
 	padding: 30px;
@@ -220,4 +220,38 @@ hr {
 
 .nutrition-table tr:last-child td {
 	border-bottom: none;
+}
+
+@media only screen and (max-width: 480px) {
+	.container {
+		margin: 0;
+		max-width: 100vw;
+		padding: 0;
+	}
+
+	.recipe-container {
+		padding: 40px;
+	}
+
+	.recipe-img {
+		border-radius: 0;
+		margin: 0;
+		padding: 0;
+	}
+
+	.recipe-img img {
+		margin: 0;
+		padding: 0;
+		border-radius: 0;
+	}
+
+	.attribution {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 490px) and (max-width: 590px) {
+	.container {
+		max-width: 42%;
+	}
 }
