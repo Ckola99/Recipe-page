@@ -15,3 +15,9 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### Screenshot
+
+![](./assets/images/webpage-screenshot.png)
