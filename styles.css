@@ -1,0 +1,223 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+#root,
+#__next {
+	isolation: isolate;
+}
+
+/* color variables */
+:root {
+	--webpage-bg-color: hsl(30, 54%, 90%);
+	--recipe-container-color: hsl(0, 0%, 100%);
+	--heading-color: hsl(14, 45%, 36%);
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+/* fonts */
+@font-face {
+	font-family: "outfit";
+	src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+		format("truetype");
+}
+
+@font-face {
+	font-family: "young-serif";
+	src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf")
+		format("truetype");
+}
+
+.recipe-container {
+	background-color: var(--recipe-container-color);
+	margin: 100px auto;
+	padding: 30px;
+	border-radius: 15px;
+	/* height: 100vh; */
+	max-width: 35%;
+}
+
+html {
+	overflow-y: scroll;
+	scrollbar-width: none; /* Hiding scrollbar for IE, Edge and Firefox */
+}
+
+/* hiding scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	background-color: var(--webpage-bg-color);
+	font-family: "outfit", sans-serif;
+}
+
+img {
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-family: "young-serif";
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+
+p {
+	font-size: 0.8rem;
+}
+
+article {
+	margin: 20px auto;
+	background-color: hsl(330, 100%, 98%);
+	border-radius: 10px;
+	padding: 15px;
+	font-size: 0.75rem;
+}
+.prep-heading {
+	color: hsl(332, 51%, 32%);
+	font-weight: 700;
+	margin-bottom: 10px;
+	font: 1.25rem;
+}
+
+span {
+	font-weight: 600;
+}
+
+.prep-time ul {
+	list-style-position: outside;
+	padding-left: 18px;
+	margin: 15px 0;
+}
+
+.prep-time li {
+	padding-left: 14px;
+	font-size: 0.85rem;
+	margin: 5px 0;
+}
+
+.prep-time li::marker {
+	color: hsl(332, 51%, 32%);
+	font-weight: 100;
+}
+
+h2 {
+	color: var(--heading-color);
+	font-family: "young-serif";
+	font-weight: 400;
+	font-size: 1.35rem;
+}
+
+.ingredients {
+	list-style-position: outside;
+	padding-left: 20px;
+	margin: 15px 0;
+	font-size: 0.85rem;
+}
+
+.ingredients li {
+	padding-left: 14px;
+	margin: 5px 0;
+}
+
+.ingredients li::marker {
+	color: var(--heading-color);
+	font-weight: 100;
+}
+hr {
+	margin-top: 25px;
+	color: hsl(30, 18%, 87%);
+	opacity: 30%;
+	margin-bottom: 20px;
+}
+
+.list-of-instructions {
+	list-style-position: outside;
+	padding-left: 20px;
+	margin: 15px 0;
+}
+
+.list-of-instructions li {
+	padding-left: 10px;
+	font-size: 0.85rem;
+	margin: 5px 0;
+}
+
+.list-of-instructions li::marker {
+	color: var(--heading-color);
+	font-weight: 800;
+}
+
+.table-description {
+	font-size: 0.85rem;
+	margin: 15px 0;
+}
+
+.nutrition-table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 0.85rem;
+}
+
+.nutrition-table td {
+	padding: 8px;
+	border-bottom: 1px solid hsl(30, 18%, 87%); /* Add a border between rows */
+}
+
+.nutrition-table td:first-child {
+	padding-left: 25px;
+}
+
+.value {
+	color: var(--heading-color);
+	font-weight: 800;
+	font-size: 0.85rem;
+}
+
+.nutrition-table tr:last-child td {
+	border-bottom: none;
+}
