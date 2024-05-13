@@ -49,6 +49,6 @@ I learned and refined my understanding of css selectors and I learned more about
 .ingredients li::marker {
 	color: var(--heading-color);
 	font-weight: 100;
-} ```
+} 
 
 I learned about a new pseudo selector "::marker" through the MDN docs.
