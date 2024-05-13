@@ -40,6 +40,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### What I learned
 
 I learned and refined my understanding of css selectors and I learned more about padding, margin as well as containers. I also learned more about CSS resets and implemented one in my project and I want to continue using them and improving them in future.
+
+CSS Reset
 ```
 *,
 *::before,
@@ -83,6 +85,7 @@ h6 {
 
 ```
 
+Marker psudeo selector
 ```
 .ingredients li {
 	padding-left: 14px;
