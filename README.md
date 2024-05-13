@@ -20,7 +20,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](/assets/images/image-omelette.jpeg)
+![](/assets/images/screencapture-ckola99-github-io-Recipe-page-2024-05-13-10_53_13.png)
 
 ### Links
 
