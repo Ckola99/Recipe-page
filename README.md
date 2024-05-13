@@ -38,3 +38,17 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - CSS custom properties
 
 ### What I learned
+
+I learned and refined my understanding of css selectors and I learned more about padding, margin as well as containers.
+
+`` .ingredients li {
+	padding-left: 14px;
+	margin: 5px 0;
+}
+
+.ingredients li::marker {
+	color: var(--heading-color);
+	font-weight: 100;
+} ``
+
+I learned about a new pseudo selector "::marker" through the MDN docs.
