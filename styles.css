@@ -117,11 +117,11 @@ article {
 	padding: 15px;
 	font-size: 0.75rem;
 }
-.prep-heading h2{
+.prep-heading {
 	color: hsl(332, 51%, 32%);
 	font-weight: 700;
 	margin-bottom: 10px;
-	font: .5rem;
+	font-size: .95rem;
 	font-family: "outfit";
 }
 
