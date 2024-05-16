@@ -121,7 +121,8 @@ article {
 	color: hsl(332, 51%, 32%);
 	font-weight: 700;
 	margin-bottom: 10px;
-	font: 1.25rem;
+	font: .75rem;
+	font-family: "outfit";
 }
 
 span {
